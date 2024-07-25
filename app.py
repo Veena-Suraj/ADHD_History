@@ -27,7 +27,7 @@ CSS_STYLE = """
 LOGIN_IMAGE = "https://kffhealthnews.org/wp-content/uploads/sites/2/2020/02/Dementia-resized.png?w=1024"
 SIGNIN_IMAGE = "https://beconnected.esafety.gov.au/pluginfile.php/82020/mod_resource/content/1/t35_c4_a2_p1.png"
 # you have to change with the deployment
-LOGOUT_URL = "https://zany-space-umbrella-gj44w4w557wc9jrj-8501.app.github.dev/"
+LOGOUT_URL = "https://dementiaguide.streamlit.app/"
 
 # set css styles
 st.markdown(CSS_STYLE, unsafe_allow_html=True)
@@ -36,7 +36,7 @@ st.markdown(CSS_STYLE, unsafe_allow_html=True)
 client_id = st.secrets["CLIENT_ID"]
 client_secret = st.secrets["CLIENT_SECRET"]
 # you have to change with the deployment
-redirect_uri = "https://zany-space-umbrella-gj44w4w557wc9jrj-8501.app.github.dev"
+redirect_uri = "https://dementiaguide.streamlit.app"
 
 # OAuth endpoints
 authorization_base_url = "https://accounts.google.com/o/oauth2/auth"
