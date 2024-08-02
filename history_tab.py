@@ -4,7 +4,7 @@ import requests
 import pandas as pd
 
 
-ROOT_NAME = "Azra"
+ROOT_NAME = "Veena"
 
 
 def get_feedbacks(data):
@@ -20,7 +20,7 @@ def payload_creator(user_id):
     get_payload = {
         "httpMethod": "GET",
         "queryStringParameters": {
-            "rootName": "Azra",
+            "rootName": ROOT_NAME,
             "userId": user_id
         }
     }
